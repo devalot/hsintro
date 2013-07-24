@@ -1,36 +1,53 @@
 #+title: Introduction to Haskell
 #+author: Peter Jones <pjones@devalot.com>
 #+startup: content
+#+columns: %50ITEM(Task) %6Effort(Estimate){:}
 
-* Topics and Goals
-  :PROPERTIES:
-  :ID:       868720b6-d686-4eb8-b855-dccae37b1f4f
-  :END:
-  1. The primary properties of Haskell vs. Language X
-  2. Learn the very *basics* of Haskell
-  3. Haskell lessons for writing better code
-* Comparing Haskell With Imperative Language X
-  :PROPERTIES:
-  :ID:       f4b8e166-e1a1-406c-b0db-3f4a64b511d0
-  :END:
-  |----------------------------------+---------------------------------------|
-  | Imperative Language X            | Haskell                               |
-  |----------------------------------+---------------------------------------|
-  | Imperative                       | Declarative, imperative emulation     |
-  | Abstraction over CPU (↑)         | Mathematics and computer science (↓)  |
-  | Nearly everything is mutable     | No side effects or I/O by default     |
-  | Strict evaluation                | Non-strict evaluation                 |
-  |----------------------------------+---------------------------------------|
-  | C++, Java, Objective-C, etc.     | Haskell                               |
-  |----------------------------------+---------------------------------------|
-  | Objects are first-class citizens | Functions are first-class citizens    |
-  | Weak, static typing              | Strong, static typing                 |
-  | Compiled                         | Compiled or interpreted (interactive) |
-  |----------------------------------+---------------------------------------|
-  | Ruby, Python, JavaScript, etc.   | Haskell                               |
-  |----------------------------------+---------------------------------------|
-  | Dynamically typed                | Strong, static typing                 |
-  | Duck typing                      | Polymorphic typing                    |
-  | Interpreted                      | Compiled or interpreted               |
-  | Relatively slow                  | Performs close to code written in C   |
-  |----------------------------------+---------------------------------------|
+* Introduction to Haskell
+** Topics and Goals
+   :PROPERTIES:
+   :ID:       868720b6-d686-4eb8-b855-dccae37b1f4f
+   :Effort:   00:01
+   :END:
+   1. The primary properties of Haskell vs. Language X
+   2. Learn the very *basics* of Haskell
+   3. Haskell lessons for writing better code
+** Comparing Haskell With Imperative Language X
+   :PROPERTIES:
+   :ID:       f4b8e166-e1a1-406c-b0db-3f4a64b511d0
+   :Effort:   00:15
+   :END:
+   |----------------------------------+---------------------------------------|
+   | Imperative Language X            | Haskell                               |
+   |----------------------------------+---------------------------------------|
+   | Imperative                       | Declarative, imperative emulation     |
+   | Abstraction over CPU (↑)         | Mathematics and computer science (↓)  |
+   | Nearly everything is mutable     | No side effects or I/O by default     |
+   | Strict evaluation                | Non-strict evaluation                 |
+   |----------------------------------+---------------------------------------|
+   | C++, Java, Objective-C, etc.     | Haskell                               |
+   |----------------------------------+---------------------------------------|
+   | Objects are first-class citizens | Functions are first-class citizens    |
+   | Weak, static typing              | Strong, static typing                 |
+   | Compiled                         | Compiled or interpreted (interactive) |
+   |----------------------------------+---------------------------------------|
+   | Ruby, Python, JavaScript, etc.   | Haskell                               |
+   |----------------------------------+---------------------------------------|
+   | Dynamically typed                | Strong, static typing                 |
+   | Duck typing                      | Polymorphic typing                    |
+   | Interpreted                      | Compiled or interpreted               |
+   | Relatively slow                  | Performs close to code written in C   |
+   |----------------------------------+---------------------------------------|
+** Haskell Basics
+   :PROPERTIES:
+   :ID:       bdf65f91-b53c-436d-b983-7241fbff6b8e
+   :Effort:   00:10
+   :END:
+   - Hello World
+   - A slightly more complicated Hello World
+   - No `NULL` or `nil`, we have `Maybe`!
+** Q and A
+   :PROPERTIES:
+   :Effort:   00:04
+   :END:
+   - Open time for question and answers
