@@ -1,0 +1,16 @@
+{BEGIN: compare}
+Haskell vs. Imperative Language X
+{END}
+
+{BEGIN: abstract}
+Abstractions
+Machines vs. Mathematics
+{END}
+
+{BEGIN: poly}
+Duck Typing vs. Polymorphic Typing
+{END}
+
+{BEGIN: functional}
+Functional
+{END}

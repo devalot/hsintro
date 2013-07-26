@@ -9,14 +9,10 @@
    :ID:       868720b6-d686-4eb8-b855-dccae37b1f4f
    :Effort:   00:01
    :END:
-   1. The primary properties of Haskell vs. Language X
-   2. Learn the very *basics* of Haskell
-   3. Haskell lessons for writing better code
+   1. What is Haskell?
+   2. The primary properties of Haskell vs. Language X
+   3. Learn the very *basics* of Haskell
 ** Comparing Haskell With Imperative Language X
-   :PROPERTIES:
-   :ID:       f4b8e166-e1a1-406c-b0db-3f4a64b511d0
-   :Effort:   00:15
-   :END:
    |----------------------------------+---------------------------------------|
    | Imperative Language X            | Haskell                               |
    |----------------------------------+---------------------------------------|

@@ -7,16 +7,21 @@ import Prelude (String, Int, ($), (++))
 import System.Environment (getArgs)
 import System.IO
 
--- {BEGIN: age}
-
+-- {BEGIN: maybe}
 --------------------------------------------------------------------------------
 data Maybe a = Nothing | Just a
+
+-- {END}                         
+-- {BEGIN: personAge}
 
 --------------------------------------------------------------------------------
 personAge :: String -> Maybe Int
 personAge "Peter" = Just 38
 personAge "Joe"   = Just 21
 personAge _       = Nothing                    
+
+-- {END}
+-- {BEGIN: main}                    
 
 --------------------------------------------------------------------------------
 main :: IO ()

@@ -1,0 +1,22 @@
+{BEGIN: def}
+Haskell, a general purpose,
+purely-functional programming language
+{END}
+
+{BEGIN: gp}
+General Purpose
+{END}
+
+{BEGIN: others}
+Compiles to native machine code
+Advanced garbage collector
+Strong, static typing
+Interactive interpreter
+High performance
+Best in class concurrency
+{END}
+
+{BEGIN: maybe}
+Why Haskell?
+Null Pointers / Nil Objects
+{END}
