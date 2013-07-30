@@ -8,7 +8,6 @@
  [
   ;; Introduction (5 minutes)
   ("banners/intro.png")
-  ("README.org"         "868720b6-d686-4eb8-b855-dccae37b1f4f")
 
   ;; What is Haskell? (5 minutes)
   (bufshow-center-text  "banners/haskell.txt" "def")
@@ -16,7 +15,6 @@
   (bufshow-center-text  "banners/haskell.txt" "others")
 
   ;; Haskell compared to C (5 minutes)
-  (bufshow-center-text  "banners/compare.txt" "compare")
   (bufshow-center-text  "banners/compare.txt" "abstract")
   ("src/csum.c"         "sum")
   ("src/hssum.hs"       "sum")
