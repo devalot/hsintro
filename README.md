@@ -1,6 +1,6 @@
 # Introduction to Haskell
 
-This is a quick introduction to Haskell for programmers.
+![Introduction to Haskell](banners/intro-dark.png)
 
 ## Goals
 
