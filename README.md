@@ -32,7 +32,7 @@ Language comparisons:
 
   * [Summing an array of integers in C](src/csum.c)
 
-  * [Summing a list of integers in Haskell](src/hssum.c)
+  * [Summing a list of integers in Haskell](src/hssum.hs)
 
   * [Idiomatic Haskell Version](src/fold.hs)
 
