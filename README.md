@@ -55,6 +55,14 @@ the quality of the products we create.
   * This removes an entire class of runtime errors and makes your code
     compile-time safe.  [Example code](src/age.hs).
 
+# More Information
+
+  * A [more lengthy article][why] about why you should be using Haskell.
+
+  * More details about Haskell and [how to learn it][learn].
+
 
 [null]: https://github.com/search?l=C%2B%2B&q=null+pointer&ref=cmdform&type=Issues
 [nil]: https://github.com/search?q=nil+undefined+method&type=Issues&ref=searchresults
+[why]: http://www.devalot.com/articles/2013/07/why-haskell.html
+[learn]: http://www.devalot.com/topics/haskell.html
